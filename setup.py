@@ -3,9 +3,9 @@ from os.path import exists
 from setuptools import setup
 
 setup(
-    name="django-tenant-schemas",
-    author="Bernardo Pires Carneiro",
-    author_email="carneiro.be@gmail.com",
+    name="django-tenant-schemas-mosi",
+    author="Julian Castro Ruge",
+    author_email="juliancastroruge@gmail.com",
     packages=[
         "tenant_schemas",
         "tenant_schemas.migration_executors",
@@ -17,7 +17,7 @@ setup(
         "tenant_schemas.tests",
     ],
     scripts=[],
-    url="https://github.com/bcarneiro/django-tenant-schemas",
+    url="https://github.com/jacastrorug/django-tenant-schemas-mosi",
     license="MIT",
     description="Tenant support for Django using PostgreSQL schemas.",
     long_description=open("README.rst").read() if exists("README.rst") else "",
