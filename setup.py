@@ -36,7 +36,6 @@ setup(
         "Topic :: Software Development :: Libraries",
     ],
     install_requires=["Django>=1.11", "ordered-set", "psycopg2-binary", "six"],
-    setup_requires=["setuptools-scm"],
-    use_scm_version=True,
     zip_safe=False,
+    version=0.2
 )
